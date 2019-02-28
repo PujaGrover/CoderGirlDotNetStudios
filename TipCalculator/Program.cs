@@ -52,6 +52,7 @@ namespace TipCalculator
 
             Console.ReadLine();
         }
+
         static void PrintRetryResponse(int retries, int maxRetries, string userInput)
         {
             if (retries < maxRetries)
